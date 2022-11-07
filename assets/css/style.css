@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins' ;
+    font-size: 14px;
+}
+.header h1 {
+    font-size: 36px;
+    padding-top: 100px;
+}
