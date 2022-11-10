@@ -92,8 +92,6 @@ if (isset($_POST["submit"])) {
     <div class="container">
         <table class="table mt-5 pt-5">
             <thead>
-
-
                 <th scope="col">No</th>
                 <th scope="col">Nama Produk</th>
                 <th scope="col">Keterangan</th>
@@ -101,13 +99,10 @@ if (isset($_POST["submit"])) {
                 <th scope="col">Jumlah</th>
                 <th scope="col">Aksi</th>
                 </tr>
-
-
             </thead>
             <tbody>
                 <?php $i = 1; ?>
                 <?php foreach ($barang as $row) : ?>
-
                     <tr>
                         <td scope="row"><?= $i; ?></td>
                         <td><?= $row["nama_produk"]; ?></td>
